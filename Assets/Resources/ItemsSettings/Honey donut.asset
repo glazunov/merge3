@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e68caa0bfb8f546deba26a245822bf1e, type: 3}
+  m_Name: Honey donut
+  m_EditorClassIdentifier: 
+  title: Honey donut
+  sprite: {fileID: 21300000, guid: f861a698f266e4d89acf99e1c8f97cde, type: 3}
+  reward: {fileID: 21300000, guid: 716dee007565940b9aec8a573562f534, type: 3}

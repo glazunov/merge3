@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &740765795237421082
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 740765795237421080}
+  - component: {fileID: 740765795237421081}
+  m_Layer: 0
+  m_Name: ItemManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &740765795237421080
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 740765795237421082}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.25, y: 0.125, z: -3}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &740765795237421081
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 740765795237421082}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 240adcdb4f765473dbff2c2938f17a6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  useScriptableObjects: 0
+  itemDatas:
+  - id: cakes_01
+    rewardId: cakes_02
+    spritePath: cakes/cakes_01
+    title: Chocolate Donut
+    s: {fileID: 0}
+  - id: cakes_02
+    rewardId: cakes_04
+    spritePath: cakes/cakes_02
+    title: Pink Donut
+    s: {fileID: 0}
+  - id: cakes_04
+    rewardId: cakes_05
+    spritePath: cakes/cakes_04
+    title: Honey Donut
+    s: {fileID: 0}
+  - id: cakes_05
+    rewardId: cakes_06
+    spritePath: cakes/cakes_05
+    title: Blue Cake
+    s: {fileID: 0}
+  - id: cakes_06
+    rewardId: cakes_08
+    spritePath: cakes/cakes_06
+    title: Chocolate Cake
+    s: {fileID: 0}
+  - id: cakes_08
+    rewardId: cakes_09
+    spritePath: cakes/cakes_08
+    title: Rose Cake
+    s: {fileID: 0}
+  - id: cakes_09
+    rewardId: cakes_10
+    spritePath: cakes/cakes_09
+    title: Pink Cake
+    s: {fileID: 0}
+  - id: cakes_10
+    rewardId: cakes_11
+    spritePath: cakes/cakes_10
+    title: White Cake
+    s: {fileID: 0}
+  - id: cakes_11
+    rewardId: cakes_12
+    spritePath: cakes/cakes_11
+    title: Cake with berry
+    s: {fileID: 0}
+  - id: cakes_12
+    rewardId: cakes_12
+    spritePath: cakes/cakes_12
+    title: Cherry Cake
+    s: {fileID: 0}
